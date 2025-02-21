@@ -15,17 +15,17 @@ The finance team has noticed many unpaid subscriptions, and wants to work on res
 
 ## Methodology
 
-The subscriptions, payment_status_log, and payment_status_definitions tables from the database using Hex were used for the analysis. Using SQL, the tables were extracted, cleaned, and transformed. The following steps were formed:
+The subscriptions, payment_status_log, and payment_status_definitions tables from the database using Hex were used for the analysis. Using SQL, the tables were extracted, cleaned, and transformed. The following steps were performed:
 - Created a CTE assigning a max_status of each subscription_id.
 - Categorizing payment statuses using the CASE function.
-- Counts the number of payment funnel stages in each year to showcase the distribution, and create a line chart of the distribution.
-- Calculates the conversion rate, workflow completion rate, and error rate.
+- Counted the number of payment funnel stages in each year to showcase the distribution, and create a line chart of the distribution.
+- Calculated the conversion rate, workflow completion rate, and error rate.
 - Created visuals using Hex.
-- For the coding process, click here to view it.
+- For the coding process, click [here](https://github.com/simonhsieh999/SQL_Payment_Funnel_Analysis/blob/main/Coding%20Process) to view it.
 
 ## Skills
 
-- SQL (Joins, aggregate functions, CTEs, Windows functions)
+- SQL (Joins, aggregate functions, CTEs, cleaning & transformations)
 - Data Cleaning
 - Data Wrangling
 - Data Visualization
