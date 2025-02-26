@@ -25,7 +25,7 @@ The subscriptions, payment_status_log, and payment_status_definitions tables fro
 
 ## Skills
 
-- SQL (Joins, aggregate functions, CTEs, cleaning & transformations)
+- SQL (Joins, aggregate functions, CTEs, cleaning & transformations, windows functions)
 - Data Cleaning
 - Data Wrangling
 - Data Visualization
